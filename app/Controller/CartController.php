@@ -25,6 +25,7 @@ class CartController extends AppController {
 		}
 		$this->redirect($this->referer());*/
 
+/*
 $this->Session->setFlash($item['Item']['title'] . ' was added to your shopping cart.');
 $this->redirect($this->referer());
     }
@@ -40,4 +41,5 @@ $this->redirect($this->referer());
 		}
 		$this->redirect(array('action' => 'cart'));
     }
+	*/
 }
