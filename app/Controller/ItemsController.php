@@ -3,14 +3,21 @@ class ItemsController extends AppController {
     public $helpers = array('Html', 'Form', 'Session');
     public $components = array('Session');
 
+	public function beforeFilter() {
+        $this->Auth->allow('index', 'view');
+    }
+
     public function index() {
+        $this->set('items', $this->Item->find('all'));
+    }
+
+	public function admin_index() {
         $this->set('items', $this->Item->find('all'));
     }
 
     public function view($id) {
         $this->Item->id = $id;
         $this->set('item', $this->Item->read());
-
     }
 
 	public function add() {

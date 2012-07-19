@@ -212,3 +212,265 @@
 #3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-07-19 04:39:03 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'smartcart'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\smartcart\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3180): Model->setSource('items')
+#5 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(7): Model->find('all')
+#7 [internal function]: ItemsController->index()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-19 04:41:00 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'smartcart'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\smartcart\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3180): Model->setSource('items')
+#5 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(7): Model->find('all')
+#7 [internal function]: ItemsController->index()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-19 04:56:13 Error: [MissingTableException] Table items for model Item was not found in datasource default.
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3180): Model->setSource('items')
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\wamp\www\smartcart\app\Controller\ItemsController.php(7): Model->find('all')
+#3 [internal function]: ItemsController->index()
+#4 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#5 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-19 04:56:19 Error: [MissingTableException] Table items for model Item was not found in datasource default.
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3180): Model->setSource('items')
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\wamp\www\smartcart\app\Controller\ItemsController.php(7): Model->find('all')
+#3 [internal function]: ItemsController->index()
+#4 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#5 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-19 06:10:07 Error: [MissingControllerException] Controller class ItmesController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-19 06:10:21 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Items\edit.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-19 06:10:30 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Items\add.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-19 06:20:40 Error: [NotFoundException] Not Found
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(920): include()
+#1 C:\wamp\www\smartcart\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp\www\sma...', Array)
+#2 C:\wamp\www\smartcart\lib\Cake\View\View.php(475): View->_render('C:\wamp\www\sma...')
+#3 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render('home', NULL)
+#4 C:\wamp\www\smartcart\app\Controller\PagesController.php(73): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-19 06:20:48 Error: [MissingControllerException] Controller class ItmesController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-19 06:22:14 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Items\edit.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-19 06:22:24 Error: [MissingActionException] Action ItemsController::admin_edit() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-19 06:25:22 Error: [MissingActionException] Action ItemsController::admin_edit() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-19 06:25:34 Error: [PrivateActionException] Private Action ItemsController::admin_edit() is not directly accessible.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-19 06:25:45 Error: [MissingControllerException] Controller class AdminEditController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-19 07:05:08 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 6]
+2012-07-19 07:05:08 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:09:40 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 6]
+2012-07-19 07:09:40 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:10:59 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 6]
+2012-07-19 07:10:59 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:11:05 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 6]
+2012-07-19 07:11:05 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:11:53 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 6]
+2012-07-19 07:11:53 Error: [FatalErrorException] Call to a member function allow() on a non-object
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 6, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:12:19 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 23]
+2012-07-19 07:12:19 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 23, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 23, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:16:01 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 22]
+2012-07-19 07:16:01 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 22, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 22, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:19:53 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\wamp\www\smartcart\app\Model\User.php, line 27]
+2012-07-19 07:19:53 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 27, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 27, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 07:31:45 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-19 08:02:46 Error: [MissingActionException] Action ItemsController::add() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-19 08:36:42 Error: [MissingActionException] Action ItemsController::admin_edit() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-19 09:29:44 Error: [MissingActionException] Action ItemsController::admin_index() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-19 09:50:23 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 45]
+2012-07-19 09:50:23 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 10:29:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\smartcart\app\Controller\UsersController.php, line 37]
+2012-07-19 10:29:43 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 37, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 37, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 10:51:21 Error: [CakeException] $controller does not implement an isAuthorized() method.
+#0 C:\wamp\www\smartcart\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Component\AuthComponent.php(414): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Controller\Component\AuthComponent.php(376): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\smartcart\lib\Cake\Controller\Component\AuthComponent.php(326): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\wamp\www\smartcart\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\smartcart\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-19 11:00:43 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 45]
+2012-07-19 11:00:43 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 11:02:29 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 45]
+2012-07-19 11:02:29 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 11:04:02 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 45]
+2012-07-19 11:04:02 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 45, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 11:32:10 Error: [MissingActionException] Action CartController::add() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-19 11:54:11 Error: Fatal Error (4): syntax error, unexpected 'empty' (T_EMPTY), expecting identifier (T_STRING) in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 19]
+2012-07-19 11:54:11 Error: [FatalErrorException] syntax error, unexpected 'empty' (T_EMPTY), expecting identifier (T_STRING)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 19, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 19, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-19 11:54:29 Error: Fatal Error (4): syntax error, unexpected 'empty' (T_EMPTY), expecting identifier (T_STRING) in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 19]
+2012-07-19 11:54:29 Error: [FatalErrorException] syntax error, unexpected 'empty' (T_EMPTY), expecting identifier (T_STRING)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 19, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 19, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
