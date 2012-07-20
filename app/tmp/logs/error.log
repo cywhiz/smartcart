@@ -474,3 +474,64 @@
 #3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-07-19 21:59:46 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'admin'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\smartcart\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(3180): Model->setSource('items')
+#5 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(11): Model->find('all')
+#7 [internal function]: ItemsController->index()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-19 22:09:35 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Cart\add.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-19 23:29:28 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(861): HelperCollection->load('Javascript', Array)
+#1 C:\wamp\www\smartcart\lib\Cake\View\View.php(468): View->loadHelpers()
+#2 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-20 02:15:05 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Cart\add.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\app\Controller\CartController.php(65): Controller->render()
+#3 [internal function]: CartController->add('1')
+#4 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#5 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-20 02:20:08 Error: Fatal Error (4): syntax error, unexpected '++' (T_INC) in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 14]
+2012-07-20 02:20:08 Error: [FatalErrorException] syntax error, unexpected '++' (T_INC)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 14, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 14, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-20 02:20:25 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Cart\add.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-20 02:24:05 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Cart\add.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
