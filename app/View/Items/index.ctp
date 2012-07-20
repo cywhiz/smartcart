@@ -1,4 +1,4 @@
-<h1>Books</h1>
+<h2>Books</h2>
 <table>
     <tr>
         <th>ID</th>
@@ -15,7 +15,7 @@
         <td><?php echo $item['Item']['title']; ?></td>
         <td><?php echo $item['Item']['author']; ?></td>
         <td><?php echo $item['Item']['price']; ?></td>
-        <td><?php echo $this->Html->link('Add to cart', array('controller' => 'cart', 'action' => 'add')); ?></td>
+        <td><?php echo $this->Html->link('Add to cart', array('controller' => 'cart', 'action' => 'add', $item['Item']['id'])); ?></td>
     </tr>
     <?php endforeach; ?>
 </table>
