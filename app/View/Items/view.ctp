@@ -1,6 +1,6 @@
-<h1><?php echo h($item['Item']['title']); ?></h1>
-
-<?php echo $this->Html->image($item['Item']['image'])?>
-<?php echo "ID = ".h($item['Item']['id']); ?>
-<?php echo "Author: ".h($item['Item']['author']); ?>
-<?php echo "Price = ".h($item['Item']['price']); ?>
+<h2></h2>
+<?php echo $this->Html->image($item['Item']['image'])?><br />
+<?php echo "ID:     ".$item['Item']['id']; ?><br />
+<?php echo "Title:  ".$item['Item']['title']; ?><br />
+<?php echo "Author: ".$item['Item']['author']; ?><br />
+<?php echo "Price:  ".$item['Item']['price']; ?>

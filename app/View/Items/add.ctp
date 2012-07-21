@@ -1,4 +1,4 @@
-<h1>Add Book</h1>
+<h2>Add Book</h2>
 <?php
 echo $this->Form->create('Item');
 echo $this->Form->input('id');

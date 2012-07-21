@@ -4,7 +4,7 @@ class ItemsController extends AppController {
     public $components = array('Session');
 
 	public function beforeFilter() {
-        $this->Auth->allow('index', 'view');
+        $this->Auth->allow('index', 'view', 'search');
     }
 
     public function index() {
@@ -29,6 +29,11 @@ class ItemsController extends AppController {
                 $this->Session->setFlash('Unable to add your the book.');
             }
         }
+    }
+
+	public function search() {
+       //$this->set('results',$this->Item->search($this->data['Item']['q'])); 
+	   //$this->set('results',$this->Item->find('all')); 
     }
     
     public function edit($id = null) {

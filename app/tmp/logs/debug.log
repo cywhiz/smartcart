@@ -1,0 +1,1528 @@
+2012-07-21 04:36:07 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:37:08 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:37:43 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:37:44 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:37:55 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:38:10 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:38:22 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:38:23 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:38:58 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:39:02 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:39:27 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:39:34 Debug: Notice (8): Undefined offset: 6 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:39:35 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:12 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:13 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:23 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:30 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:32 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:48 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:45:16 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:46:04 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:46:13 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:46:22 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:47:02 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:48:09 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:48:19 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:49:49 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:50:37 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:52:11 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:52:25 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:52:51 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:53:22 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:53:26 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:54:28 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:54:32 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:54:48 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:56:57 Debug: Notice (8): Undefined offset: 8 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:56:58 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:57:07 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:57:24 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:57:40 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:03:59 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:03:59 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 14]
+Trace:
+include - APP\View\Layouts\default.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:03:59 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 27]
+Trace:
+include - APP\View\Layouts\default.ctp, line 27
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:03:59 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 14]
+Trace:
+include - APP\View\Layouts\default.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:03:59 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 27]
+Trace:
+include - APP\View\Layouts\default.ctp, line 27
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:03:59 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 14]
+Trace:
+include - APP\View\Layouts\default.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:03:59 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 27]
+Trace:
+include - APP\View\Layouts\default.ctp, line 27
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:05:24 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:24 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:24 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:05:28 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:28 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:05:31 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:31 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:31 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:05:36 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:37 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:05:47 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:47 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:47 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:05:51 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:05:52 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:06:01 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:06:01 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:06:01 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:06:03 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:06:03 Debug: Notice (8): Undefined variable: cakeDescription in [C:\wamp\www\smartcart\app\View\Layouts\default.ctp, line 12]
+Trace:
+include - APP\View\Layouts\default.ctp, line 12
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::renderLayout() - CORE\Cake\View\View.php, line 539
+View::render() - CORE\Cake\View\View.php, line 483
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 267
+ExceptionRenderer::error400() - CORE\Cake\Error\ExceptionRenderer.php, line 213
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 169
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2012-07-21 05:06:52 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:35:32 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:35:33 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:40:18 Debug: Notice (8): Undefined offset: 6 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:40:19 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:40:32 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:40:38 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:41:06 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:42:20 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:50:22 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:50:50 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:53:23 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:53:30 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:54:48 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 11]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 11
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:54:49 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:17 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:28 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:35 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:46 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:52 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:57 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:59:16 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:59:30 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:59:42 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:59:52 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:03:04 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:05:29 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:05:29 Debug: Notice (8): Undefined index: Item in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 95]
+Trace:
+include - APP\View\Cart\index.ctp, line 95
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:06:57 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:07:23 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:07:42 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:08:00 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:10:10 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:11:33 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:16:19 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:44:24 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:44:54 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:45:06 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:45:24 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 24]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:45:25 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:49:17 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:51:42 Debug: Notice (8): Undefined offset: 7 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 24]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:51:43 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:53:17 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:53:30 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:54:33 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:54:40 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 07:03:49 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 07:04:01 Debug: Notice (8): Undefined offset: 5 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 24]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 07:04:02 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 07:10:29 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 07:32:38 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:04:04 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:04:09 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:04:52 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:05:00 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:05:16 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:06:30 Debug: Notice (8): Undefined offset: 2 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 24]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:06:31 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:06:35 Debug: Notice (8): Undefined offset: 3 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 24]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:06:36 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:07:28 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:07:38 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:12:48 Debug: Notice (8): Undefined offset: 2 in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 24]
+Trace:
+CartController::add() - APP\Controller\CartController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:12:49 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:13:43 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 26]
+Trace:
+include - APP\View\Cart\index.ctp, line 26
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:16:22 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 25]
+Trace:
+include - APP\View\Cart\index.ctp, line 25
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:16:46 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 25]
+Trace:
+include - APP\View\Cart\index.ctp, line 25
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:21:53 Debug: Notice (8): Undefined variable: total in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 25]
+Trace:
+include - APP\View\Cart\index.ctp, line 25
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:33:43 Debug: Notice (8): Undefined index: Item in [C:\wamp\www\smartcart\app\Controller\ItemsController.php, line 35]
+Trace:
+ItemsController::search() - APP\Controller\ItemsController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+

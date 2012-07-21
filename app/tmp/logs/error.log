@@ -954,3 +954,1038 @@
 2012-07-20 12:06:44 Error: [MissingControllerException] Controller class AddController could not be found.
 #0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-07-20 12:24:00 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 36]
+2012-07-20 12:24:00 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 36, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 36, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-20 23:14:20 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 30]
+2012-07-20 23:14:20 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 30, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 30, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-20 23:31:56 Error: Fatal Error (1): Call to undefined method View::currency() in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 42]
+2012-07-20 23:31:56 Error: [FatalErrorException] Call to undefined method View::currency()
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\sma...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\sma...', 42, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\sma...', 42, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-20 23:32:10 Error: [MissingHelperException] Helper class ItemHelper could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Item')
+#1 C:\wamp\www\smartcart\lib\Cake\View\View.php(812): HelperCollection->__isset('Item')
+#2 C:\wamp\www\smartcart\app\View\Cart\index.ctp(20): View->__get('Item')
+#3 C:\wamp\www\smartcart\lib\Cake\View\View.php(920): include('C:\wamp\www\sma...')
+#4 C:\wamp\www\smartcart\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp\www\sma...', Array)
+#5 C:\wamp\www\smartcart\lib\Cake\View\View.php(475): View->_render('C:\wamp\www\sma...')
+#6 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-21 00:22:32 Error: [MissingControllerException] Controller class SmartcartController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 00:23:09 Error: [MissingControllerException] Controller class Cart.phpController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 00:23:21 Error: [MissingControllerException] Controller class Cart.phpController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 00:43:05 Error: Fatal Error (4): syntax error, unexpected '$coupon' (T_VARIABLE) in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 42]
+2012-07-21 00:43:05 Error: [FatalErrorException] syntax error, unexpected '$coupon' (T_VARIABLE)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 42, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 42, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 00:43:21 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 41]
+2012-07-21 00:43:21 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 41, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 41, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 00:43:34 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 85]
+2012-07-21 00:43:34 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 85, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 85, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 01:05:51 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 43]
+2012-07-21 01:05:51 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 43, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 43, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 01:44:37 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 127]
+2012-07-21 01:44:37 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 127)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 127, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 127, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 02:09:47 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 51]
+2012-07-21 02:09:47 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 51, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 51, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 02:29:43 Error: Fatal Error (4): syntax error, unexpected '.', expecting ')' in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 52]
+2012-07-21 02:29:43 Error: [FatalErrorException] syntax error, unexpected '.', expecting ')'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 52, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 52, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 03:37:56 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 65]
+2012-07-21 03:37:56 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 65, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 65, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 03:39:18 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 109]
+2012-07-21 03:39:18 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 109)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 109, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 109, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 03:43:38 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\smartcart\app\View\Cart\index.ctp, line 34]
+2012-07-21 03:43:38 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 34, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 34, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 03:50:58 Error: [MissingActionException] Action CartController::submit() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-21 03:51:20 Error: [MissingActionException] Action CartController::post() could not be found.
+#0 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-21 04:30:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:30:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:31:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:31:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:31:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:31:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:31:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:31:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:32:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:32:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:32:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:32:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:32:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:32:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:33:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:33:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:34:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:35:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:35:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:35:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:35:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:36:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:53 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:37:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:37:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:38:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:39:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:22 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:47 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:40:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:40:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:45:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:45:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:46:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:46:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:46:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:46:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:46:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:46:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:47:00 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:47:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:47:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:48:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:48:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:48:17 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:48:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:48:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:49:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:49:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:10 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:52:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:24 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:52:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:52:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:53:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:53:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:53:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:53:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:54:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:54:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:54:31 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:54:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:54:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:54:47 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:54:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:54:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:56:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:56:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:56:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:56:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:57:06 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:57:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:57:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:57:22 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:57:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:57:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:57:39 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 04:57:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:57:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:58:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 04:58:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:03:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:03:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:05:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:05:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:05:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:05:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:05:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:05:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:06:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:06:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:40:30 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:40:37 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:42:18 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:46:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-21 05:58:27 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:34 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:45 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:51 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:58:56 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 05:59:15 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 23]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 23
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 06:13:54 Error: [MissingViewException] View file "C:\wamp\www\smartcart\app\View\Cart\checkout.ctp" is missing.
+#0 C:\wamp\www\smartcart\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CartController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-21 06:53:28 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 36]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 07:08:53 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\smartcart\app\View\Cart\checkout.ctp, line 70]
+2012-07-21 07:08:53 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 70, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 70, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 07:09:05 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\smartcart\app\View\Cart\checkout.ctp, line 70]
+2012-07-21 07:09:05 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 70, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 70, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 07:09:14 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp\www\smartcart\app\View\Cart\checkout.ctp, line 70]
+2012-07-21 07:09:14 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 70, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 70, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:13:41 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 36]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:16:45 Warning: Warning (2): Missing argument 1 for CartController::update() in [C:\wamp\www\smartcart\app\Controller\CartController.php, line 36]
+Trace:
+CartController::update() - APP\Controller\CartController.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2012-07-21 08:33:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('search', Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('search', Array, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(613): DboSource->fetchAll('search', Array, Array)
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(784): DboSource->query('search', Array, Object(Item))
+#5 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Model->__call('search', Array)
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Item->search(NULL)
+#7 [internal function]: ItemsController->search()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-21 08:34:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('search', Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('search', Array, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(613): DboSource->fetchAll('search', Array, Array)
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(784): DboSource->query('search', Array, Object(Item))
+#5 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Model->__call('search', Array)
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Item->search(NULL)
+#7 [internal function]: ItemsController->search()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-21 08:36:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('search', Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('search', Array, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(613): DboSource->fetchAll('search', Array, Array)
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(784): DboSource->query('search', Array, Object(Item))
+#5 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Model->__call('search', Array)
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Item->search(NULL)
+#7 [internal function]: ItemsController->search()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-21 08:41:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('search', Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('search', Array, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(613): DboSource->fetchAll('search', Array, Array)
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(784): DboSource->query('search', Array, Object(Item))
+#5 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Model->__call('search', Array)
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Item->search(NULL)
+#7 [internal function]: ItemsController->search()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-21 08:45:24 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\smartcart\app\View\Items\search.ctp, line 3]
+2012-07-21 08:45:24 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:46:45 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\smartcart\app\View\Items\search.ctp, line 3]
+2012-07-21 08:46:45 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:47:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('search', Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('search', Array, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(613): DboSource->fetchAll('search', Array, Array)
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(784): DboSource->query('search', Array, Object(Item))
+#5 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Model->__call('search', Array)
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(35): Item->search(NULL)
+#7 [internal function]: ItemsController->search()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-21 08:47:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+#0 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('search', Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('search', Array, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Model\Datasource\DboSource.php(613): DboSource->fetchAll('search', Array, Array)
+#4 C:\wamp\www\smartcart\lib\Cake\Model\Model.php(784): DboSource->query('search', Array, Object(Item))
+#5 C:\wamp\www\smartcart\app\Controller\ItemsController.php(36): Model->__call('search', Array)
+#6 C:\wamp\www\smartcart\app\Controller\ItemsController.php(36): Item->search('all')
+#7 [internal function]: ItemsController->search()
+#8 C:\wamp\www\smartcart\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#9 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\smartcart\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\smartcart\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-21 08:48:10 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\smartcart\app\View\Items\search.ctp, line 3]
+2012-07-21 08:48:10 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:48:57 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\smartcart\app\View\Items\search.ctp, line 3]
+2012-07-21 08:48:57 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:49:08 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\wamp\www\smartcart\app\View\Items\search.ctp, line 3]
+2012-07-21 08:49:08 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 3, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 3, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:49:18 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\smartcart\app\View\Items\search.ctp, line 3]
+2012-07-21 08:49:18 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:49:34 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\smartcart\app\View\Items\search.ctp, line 3]
+2012-07-21 08:49:34 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\sma...', 3, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:52:30 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 08:52:30 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:52:37 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 08:52:37 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:53:06 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 08:53:06 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:53:31 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 08:53:31 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:54:50 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 08:54:50 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:54:56 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 08:54:56 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 08:55:00 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 08:55:00 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 09:05:31 Error: Fatal Error (4): syntax error, unexpected '$item' (T_VARIABLE), expecting ',' or ';' in [C:\wamp\www\smartcart\app\View\Items\view.ctp, line 16]
+2012-07-21 09:05:31 Error: [FatalErrorException] syntax error, unexpected '$item' (T_VARIABLE), expecting ',' or ';'
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\sma...', 16, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\sma...', 16, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-21 09:12:18 Error: Fatal Error (1): Cannot access empty property in [C:\wamp\www\smartcart\lib\Cake\View\View.php, line 831]
+2012-07-21 09:12:18 Error: [FatalErrorException] Cannot access empty property
+#0 C:\wamp\www\smartcart\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#2 C:\wamp\www\smartcart\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', 'C:\wamp\www\sma...', 831, Array)
+#3 C:\wamp\www\smartcart\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -15,7 +15,7 @@
         <td><?php echo $item['Item']['title']; ?></td>
         <td><?php echo $item['Item']['author']; ?></td>
         <td><?php echo $item['Item']['price']; ?></td>
-        <td><?php echo $this->Html->link('Add to cart', array('controller' => 'cart', 'action' => 'add', $item['Item']['id'])); ?></td>
+        <td><?php echo $this->Html->image("add.gif", array('url' => array('controller' => 'cart', 'action' => 'add', $item['Item']['id']))); ?></td>
     </tr>
     <?php endforeach; ?>
 </table>
